@@ -1,5 +1,19 @@
 # Streamlit-Intro-App
 
+## Installation
+```python
+pip install streamlit
+```
+## Usage
+```python
+py -m streamlit run main.py
+```
+## localhost only
+Remove the browser setting in _.streamlit/config.toml_ to enable network access.
+***
+## youTube tutorial
+[Build a Python Website in 15 Minutes With Streamlit](https://www.youtube.com/watch?v=2siBrMsqF44)
+***
 # 💻 Launch Your Software Development Career Today!  
 
 🎓 **No degree? No problem!** My program equips you with everything you need to break into tech and land an entry-level software development role.  

@@ -9,8 +9,9 @@ uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
 if uploaded_file is not None:
     df = pd.read_csv(uploaded_file)
 
+    # the number in df.head(15) is the number of rows to display
     st.subheader("Data Preview")
-    st.write(df.head())
+    st.write(df.head(15))
 
     st.subheader("Data Summary")
     st.write(df.describe())
